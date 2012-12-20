@@ -134,11 +134,11 @@ h1{
 	font-size:16px;
 	text-align:center;
 	box-shadow:0 0 20px #000;
-	-webkit-transition: all .9s;
-	-moz-transition: all .9s;
-	-ms-transition: all .9s;
-	-o-transition: all .9s;
-	transition: all .9s;
+	-webkit-transition:all .9s;
+	-moz-transition:all .9s;
+	-ms-transition:all .9s;
+	-o-transition:all .9s;
+	transition:all .9s;
 }
 #conteiner div ul{
 	list-style:none;
@@ -157,47 +157,47 @@ h1{
 /* -------------------------
 --------- EFEITOS ----------
 --------------------------*/
-#conteiner div.rotateToBack{
+#conteiner div.backwardRotation{
 	opacity:0;
-	-webkit-transform-origin: 0%;
-	-moz-transform-origin: 0%;
-	-ms-transform-origin: 0%;
-	-o-transform-origin: 0%;
-	transform-origin: 0%;
-	-webkit-transform: perspective(1200px) rotateY(40deg);
-	-moz-transform: perspective(1200px) rotateY(40deg);
-	-ms-transform: perspective(1200px) rotateY(40deg);
-	-o-transform: perspective(1200px) rotateY(40deg);
-	transform: perspective(1200px) rotateY(40deg);
+	/*-webkit-transform-origin:0%;
+	-moz-transform-origin:0%;
+	-ms-transform-origin:0%;
+	-o-transform-origin:0%;
+	transform-origin:0%;*/
+	-webkit-transform:perspective(1200px) rotateY(40deg);
+	-moz-transform:perspective(1200px) rotateY(40deg);
+	-ms-transform:perspective(1200px) rotateY(40deg);
+	-o-transform:perspective(1200px) rotateY(40deg);
+	transform:perspective(1200px) rotateY(40deg);
 }
-#conteiner div.rotateToFront{
+#conteiner div.forwardRotation{
 	opacity:0;
-	/*-webkit-transform-origin: 0%;
-	-moz-transform-origin: 0%;
-	-ms-transform-origin: 0%;
-	-o-transform-origin: 0%;
-	transform-origin: 0%;*/
-	-webkit-transform: perspective(1200px) rotateY(-40deg);
-	-moz-transform: perspective(1200px) rotateY(-40deg);
-	-ms-transform: perspective(1200px) rotateY(-40deg);
-	-o-transform: perspective(1200px) rotateY(-40deg);
-	transform: perspective(1200px) rotateY(-40deg);
+	/*-webkit-transform-origin:0%;
+	-moz-transform-origin:0%;
+	-ms-transform-origin:0%;
+	-o-transform-origin:0%;
+	transform-origin:0%;*/
+	-webkit-transform:perspective(1200px) rotateY(-40deg);
+	-moz-transform:perspective(1200px) rotateY(-40deg);
+	-ms-transform:perspective(1200px) rotateY(-40deg);
+	-o-transform:perspective(1200px) rotateY(-40deg);
+	transform:perspective(1200px) rotateY(-40deg);
 }
 #conteiner div.falling{
 	opacity:0;
-	-webkit-transform: perspective(1200px) rotateX(40deg);
-	-moz-transform: perspective(1200px) rotateX(40deg);
-	-ms-transform: perspective(1200px) rotateX(40deg);
-	-o-transform: perspective(1200px) rotateX(40deg);
-	transform: perspective(1200px) rotateX(40deg);
+	-webkit-transform:perspective(1200px) rotateX(40deg);
+	-moz-transform:perspective(1200px) rotateX(40deg);
+	-ms-transform:perspective(1200px) rotateX(40deg);
+	-o-transform:perspective(1200px) rotateX(40deg);
+	transform:perspective(1200px) rotateX(40deg);
 }
 #conteiner div.scaleToBack{
 	opacity:0;
-	-webkit-transform: scale(.5);
-	-moz-transform: scale(.5);
-	-ms-transform: scale(.5);
-	-o-transform: scale(.5);
-	transform: scale(.5);
+	-webkit-transform:scale(.5);
+	-moz-transform:scale(.5);
+	-ms-transform:scale(.5);
+	-o-transform:scale(.5);
+	transform:scale(.5);
 }
 #conteiner div.moveToTop{
 	top:-100%;

@@ -30,7 +30,7 @@ function elementTransform(target){
 			elements = itens.length,
 			toggle,
 			direction = true,
-			styles = ["rotateToBack","rotateToFront","falling","scaleToBack","moveToTop","moveToBottom","moveToRight"],
+			styles = ["backwardRotation","forwardRotation","falling","scaleToBack","moveToTop","moveToBottom","moveToRight"],
 			styleTarget = window.location.search.substr(1) || "", // Escolha um dos styles acima ou deixe uma string vazia para o modo aleatório
 			list = [].slice.call(itens),
 			enable = true,
