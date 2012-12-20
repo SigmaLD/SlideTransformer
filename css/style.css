@@ -124,6 +124,8 @@ h1{
 	left:-840px;
 	margin-top:-250px;
 	padding:10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	width:80%;
 	height:500px;
@@ -170,16 +172,24 @@ h1{
 }
 #conteiner div.rotateToFront{
 	opacity:0;
-	-webkit-transform-origin: 0%;
+	/*-webkit-transform-origin: 0%;
 	-moz-transform-origin: 0%;
 	-ms-transform-origin: 0%;
 	-o-transform-origin: 0%;
-	transform-origin: 0%;
+	transform-origin: 0%;*/
 	-webkit-transform: perspective(1200px) rotateY(-40deg);
 	-moz-transform: perspective(1200px) rotateY(-40deg);
 	-ms-transform: perspective(1200px) rotateY(-40deg);
 	-o-transform: perspective(1200px) rotateY(-40deg);
 	transform: perspective(1200px) rotateY(-40deg);
+}
+#conteiner div.falling{
+	opacity:0;
+	-webkit-transform: perspective(1200px) rotateX(40deg);
+	-moz-transform: perspective(1200px) rotateX(40deg);
+	-ms-transform: perspective(1200px) rotateX(40deg);
+	-o-transform: perspective(1200px) rotateX(40deg);
+	transform: perspective(1200px) rotateX(40deg);
 }
 #conteiner div.scaleToBack{
 	opacity:0;

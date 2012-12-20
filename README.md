@@ -2,7 +2,7 @@
 
 Slide Transformer é um elegante e funcional slide que utiliza técnicas CSS3 (Transition e Transform, daí o nome) e Javascript.
 
-Utilize as setas do teclado ou o menu ao lado para navegar.
+Utilize as setas do teclado ou o menu para navegar.
 
 [Check out demo](http://www.sigmald.com/experimentos/slide-transformer/index.html).
 
