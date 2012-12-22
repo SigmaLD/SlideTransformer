@@ -142,8 +142,16 @@ function elementTransform(target){
 	 * Implementa a navegação pelos slides utilizando o menu lateral
 	 */
 	function clique( event ){
+		if(event.target == menuItem[index]){
+			return;
+		}
+
 		index = menuItem.indexOf( event.target );
 		list[index].style.display = "block";
+
+		if(itens[index].classList.length > 1){
+			itens[index].setAttribute("class","defaultShow");
+		}
 
 		menuItem.forEach(function( element, i ){
 			if(element.classList.contains("current")){
